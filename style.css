@@ -1,0 +1,24 @@
+body {
+  margin: 0%;
+  padding: 0;
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+
+.nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  justify-content: center;
+  padding: 30px 100px;
+  background-color: yellow;
+}
+.nav ul a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.nav ul a:hover {
+  scale: 1.05;
+  color: red;
+}
