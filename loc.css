@@ -1,0 +1,44 @@
+main {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: yellowgreen;
+  color: #333;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+header {
+  background-color: greenyellow;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  text-transform: capitalize;
+}
+.map,
+.location-details {
+  background-color: yellow;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0 0 0 0.1);
+}
+.map {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+.location-details {
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px;
+}
+footer {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
