@@ -1,0 +1,95 @@
+* {
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8e1;
+    color: #333;
+  }
+  header {
+    background: linear-gradient(90deg, #228b22, #ffd700, #ff4500);
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+  }
+  nav a:hover {
+    text-decoration: double;
+    color: #ff4500;
+  }
+  .banner {
+    background-image: url(https://th.bing.com/th/id/OIP.Ocnhb-9f_lm5wGIVISo5RQHaD7?w=303&h=180&c=7&r=0&o=5&pid=1.7);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    background-repeat: no-repeat;
+  }
+  .banner h2 {
+    font-size: 2rem;
+  }
+  .content {
+    padding: 20px;
+    text-align: center;
+  }
+  .content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+
+  .container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .container p {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    background-color: #130101;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  li h3 {
+    margin: 0 0 5px 0;
+    color: #ffd700;
+  }
+  li p {
+    margin: 5px 0;
+  }
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+}
