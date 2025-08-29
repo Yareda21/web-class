@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2e7d32; 
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links a {
+  margin-left: 36px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+ 
+}
+.nav-links a:hover,
+.nav-links a.active {
+  color: yellow;
+}
+ header  {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;    
+    background-repeat:no-repeat;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    color: green;
+}
+.description {
+    padding: 0px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+ .description .history {
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: black;
+    padding: 0%;
+ }
+.description .title {
+   text-decoration: underline;
+}
+
+.description .Celebration {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+     background-color: yellow;
+}
+  .description .title2{
+    background-color: yellow;
+    text-decoration: underline;
+  }
+.description .Celebration img {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+   }                                      
+   footer {
+    background-color: grey;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    font: 200;
+   }
+   .traditions {
+    background-image: url('background.jpg');
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    padding: 20px;
+   }
+.traditions h1 {
+    text-decoration: underline;
+   }
+   .traditions img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+   }
+   .traditions .images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   }
+    @media (max-width: 600px) {
+        
+    }
+
+
+.active {
+  color: blue;
+}

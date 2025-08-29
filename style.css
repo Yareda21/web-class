@@ -1,0 +1,249 @@
+
+.hero {
+  background: url('new_year.jpg') no-repeat center center/cover;
+  height: 77.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.hero-content {
+  background: rgba(205, 228, 70, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 800px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: rgb(37, 142, 18);
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.hero-btns .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background: yellow;
+  color: green;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+
+.hero-btns .btn:hover {
+  background: white;
+  color: green;
+}
+
+
+.footer {
+  background-color: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 10px 5px;
+  width: 100vw;
+  box-sizing: border-box;
+   margin-left: calc(-50vw + 50%);
+}
+
+.footer-content p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fdfdf6;
+}
+/*Location Site*/
+
+.header {
+    background-color: #FFD700;
+    padding: 2rem;
+    text-align: center;
+    color: green;
+    font-size: 40px;
+   
+}
+
+.content {
+    padding: 2rem;
+    height: 77.5vh;
+}
+
+.content h3 {
+    color: #228B22;
+     
+}
+
+/* Gallery */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fffef5; 
+  color: #333;
+}
+
+.gallery-header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: yellow;
+  color: green;
+}
+
+.gallery-header h1 {
+  margin-bottom: 0.5rem;
+}
+
+/* Gallery Grid */
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 128, 0, 0.7); /* semi-transparent green */
+  color: white;
+  width: 100%;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .caption {
+  opacity: 1;
+}
+.contact-participation {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff8f0;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.contact-participation h2 {
+    text-align: center;
+    color: #2e7d32
+    margin-bottom: 1.5rem;
+}
+
+.contact-form, .participation-social {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/* Contact Form */
+.contact-form h3 {
+    color:#2e7d32
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    margin-top: 1.5rem;
+    width: 100%;
+    padding: 0.7rem;
+    background-color: #2e7d32
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius :5px;
+}
+
+.contact-form button:hover {
+    background-color: 
+}
+
+/* Participation & Social Media */
+.participation-social h3 {
+    color: #2e7d32
+    margin-top: 1rem;
+}
+
+.participation-social p {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background-color: #2e7d32
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+.btn:hover {
+    background-color:#2e7d32
+}
+
+.social-links {
+    margin-top: 0.5rem;
+}
+
+.social-link {
+    display: inline-block;
+    margin: 0.5rem 1rem;
+    color: #2e7d32;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    text-decoration: underline;
+}
+
