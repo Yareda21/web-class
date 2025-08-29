@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  background-color: rgb(255, 217, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+}
+
+nav a.logo {
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+.hero {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 60vh;
+}
+.hero img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.9;
+}
+.tradition-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.section-title {
+  font-size: 34px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  margin-bottom: 1px;
+  font-family: "Noto Serif", serif;
+  letter-spacing: 1px;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: flex-start;
+  padding: 20px 40px;
+}
+
+.tradition-box {
+  background: rgba(0, 0, 0, 0.589);
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 16px;
+  color: white;
+  font-family: "Noto Sans Ethiopic", "Poppins", sans-serif;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+  flex: 0 0 auto; /* box fits its content */
+}
+
+.tradition-box:hover {
+  transform: scale(1.05);
+}
